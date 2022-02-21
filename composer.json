@@ -1,0 +1,17 @@
+{
+    "name": "local_user/demo-twig",
+    "autoload": {
+        "psr-4": {
+            "LocalUser\\DemoTwig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sabri",
+            "email": "sabri.abbassi@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
+}

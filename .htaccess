@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/publiq/.*
+RewriteRule ^(.*)$ /publiq/index.php?path=$1
